@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Abstracts\Product.cs" />
+    <Compile Include="Domain\Interfaces\Permission.cs" />
+    <Compile Include="Domain\Abstracts\Store.cs" />
+    <Compile Include="Domain\Abstracts\User.cs" />
+    <Compile Include="Domain\Permissions\Guest.cs" />
+    <Compile Include="Domain\Permissions\Registered.cs" />
+    <Compile Include="Domain\Permissions\StoreManager.cs" />
+    <Compile Include="Domain\Permissions\StoreOwner.cs" />
+    <Compile Include="Domain\Permissions\Administrator.cs" />
+    <Compile Include="Domain\StoreImpl.cs" />
+    <Compile Include="Domain\UserImpl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

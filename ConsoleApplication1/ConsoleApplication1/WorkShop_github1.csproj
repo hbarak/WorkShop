@@ -47,6 +47,7 @@
     <Compile Include="Domain\interfaces\Role.cs" />
     <Compile Include="Domain\interfaces\User.cs" />
     <Compile Include="Domain\interfaces\Store.cs" />
+    <Compile Include="Domain\Roles\Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

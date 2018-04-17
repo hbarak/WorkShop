@@ -10,7 +10,7 @@ namespace WorkShop_github
     {
         String name;
         String id;
-        Role role;
+        Permission permission;
         Cart cart;
 
         public abstract void addProductToCart(Product product);

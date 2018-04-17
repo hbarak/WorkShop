@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorkShop_github.Domain.Permissions
+namespace WorkShop_github.Domain
 {
-    class Administrator : Permission
+    class StoreImpl: Store
     {
     }
 }

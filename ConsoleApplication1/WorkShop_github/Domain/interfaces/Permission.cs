@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace WorkShop_github
 {
-   interface Role
+   interface Permission
     {
+        bool isAdministrator();
+        bool isManager();
+
 
     }
 }
