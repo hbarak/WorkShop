@@ -47,6 +47,7 @@
     <Compile Include="Domain\Constants.cs" />
     <Compile Include="Domain\Discount.cs" />
     <Compile Include="Domain\Enums\Enums.cs" />
+    <Compile Include="Domain\IdGenerator\IdGenerator.cs" />
     <Compile Include="Domain\Interfaces\Permission.cs" />
     <Compile Include="Domain\Abstracts\Store.cs" />
     <Compile Include="Domain\Abstracts\User.cs" />

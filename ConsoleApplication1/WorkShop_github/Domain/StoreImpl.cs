@@ -8,5 +8,9 @@ namespace WorkShop_github.Domain
 {
     class StoreImpl: Store
     {
+        public StoreImpl(String name)
+        {
+
+        }
     }
 }
