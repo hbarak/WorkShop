@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WorkShop_github.Domain.Permissions
 {
-    class StoreManager: Registered
+    class Buyer: Registered
     {
     }
 }

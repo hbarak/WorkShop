@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorkShop_github.Domain.Permissions
+namespace WorkShop_github.Domain.Enums
 {
-    class StoreManager: Registered
-    {
-    }
+    public enum Depertment { Electronics, Toys, Home, Garden};
 }

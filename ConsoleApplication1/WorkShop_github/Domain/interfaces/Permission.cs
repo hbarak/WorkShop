@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace WorkShop_github
 {
-   interface Permission
+    interface Permission
     {
+        String getPassword();
         bool isAdministrator();
         bool isManager();
 

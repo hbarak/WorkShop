@@ -10,9 +10,10 @@ namespace WorkShop_github
     {
         String id;
         String name;
-        List<Product> availableProducts;                        //all products for sale
-        public abstract int addProduct(Product product, int quantity);
-        public abstract int removeProduct(Product product, int quantity);
+        Dictionary<Product, int> availableProducts;                        //all products for sale
+        public abstract int addNewProduct(Product product, int quantity);
+        public abstract int decreaseProduceQuantity(Product product, int quantity);
+        public abstract int increaseProduceQuantity(Product product, int quantity);
         public abstract int editProduct(Product product, int quantity);
         public abstract bool addManager(User user);
         public abstract bool removeManager(User user);
